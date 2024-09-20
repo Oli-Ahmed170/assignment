@@ -17,6 +17,8 @@ nav{
 	padding:10px 20px;
 	text-align: center;
 	color: white;
+	position:sticky;
+	top:0;
 }
 a{
 	color: white;
@@ -97,4 +99,7 @@ img:hover{
 }
 .div2{
 	border-radius:1%;
+}
+html{
+	scroll-behavior: smooth;
 }
